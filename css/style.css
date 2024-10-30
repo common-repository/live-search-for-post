@@ -1,0 +1,66 @@
+/*Live Search CSS*/
+.live-search {
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.live-search-container:hover {
+    background: #d0d0d0 !important;
+}
+
+.live-search-container {
+    border-bottom: 1px solid #D0CDC5;
+    width: 100%;
+    float: left;
+    padding: 1% !important;
+    background: #e6e6e6 !important;
+}
+
+.live-search-thumb img {
+    width: 32px;
+    height: 32px;
+    float: left;
+    background: #e6e6e6;
+    box-shadow: none !important;
+}
+
+.live-search-thumb {
+    width: 10% !important;
+}
+
+.live-search-content {
+    float: left;
+    width: 90% !important;
+    padding-left: 1% !important;
+}
+
+.live-search-content h2 {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0 3px 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.live-search-design {
+    box-shadow: 1px 1px 12px 1px #b0aaaa;
+}
+
+#search_data_fetch {
+    max-height: 180px !important;
+    overflow: auto !important;
+}
+
+#search_data_fetch::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+    background-color: #eeeeee !important;
+}
+
+#search_data_fetch::-webkit-scrollbar {
+    width: 10px !important;
+    background-color: #eeeeee !important;
+}
+
+#search_data_fetch::-webkit-scrollbar-thumb {
+    background-color: #c4c4c4 !important;
+}
